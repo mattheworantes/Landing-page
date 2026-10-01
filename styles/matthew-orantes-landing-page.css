@@ -63,6 +63,13 @@ font-family: 'tr2n', sans-serif;
 
 }
 
+.header-button {
+    width: 300px;
+    height: auto;
+    border: none;
+    display: inline-block;
+}
+
 
 
 .links-container {
