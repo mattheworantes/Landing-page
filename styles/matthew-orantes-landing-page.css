@@ -1,3 +1,14 @@
+@font-face {
+font-family: 'Cybrpnuk2';
+src: url('fonts/Cybrpnuk2.ttf') format('truetype');
+font-weight:normal;
+font-style: normal;
+
+
+}
+
+
+
 body {
     margin: 0%;
     padding: 0%;
@@ -39,7 +50,20 @@ text-shadow:
 0 0 10px #00ff55,
 0 0 20px #07ff3c,
 0 0 40px #00b61e;
+font-family: 'tr2n', sans-serif;
 }
+
+.header-container {
+    display: flex;
+    justify-content: Center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    color: #ffffff;
+
+}
+
+
 
 .links-container {
     display: flex;
@@ -53,10 +77,33 @@ text-shadow:
 
 
 
+.contact-container {
+    display: flex;
+    justify-content: Center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    color: #ffffff;
+
+}
+
+.small-project-button {
+
+width: 80px;
+height: auto;
+border: none;
+display: inline-block;
+
+
+}
+
+
+
 h2 {
 text-align: center;
 font-size: 3rem;
 color: #ffffff;
+font-family: 'Cybrpnuk2', sans-serif;
 }
 
 .p1{
@@ -66,6 +113,7 @@ color: #ffffff;
     margin: 0 auto 20px auto;
     line-height: 1.6;
     color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .p2{text-align: center;
