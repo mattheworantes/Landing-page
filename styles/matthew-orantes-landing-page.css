@@ -1,14 +1,3 @@
-@font-face {
-font-family: 'Cybrpnuk2';
-src: url('fonts/Cybrpnuk2.ttf') format('truetype');
-font-weight:normal;
-font-style: normal;
-
-
-}
-
-
-
 body {
     margin: 0%;
     padding: 0%;
@@ -50,7 +39,7 @@ text-shadow:
 0 0 10px #00ff55,
 0 0 20px #07ff3c,
 0 0 40px #00b61e;
-font-family: 'tr2n', sans-serif;
+font-family: 'Flynn', sans-serif;
 }
 
 .header-container {
@@ -110,17 +99,16 @@ h2 {
 text-align: center;
 font-size: 3rem;
 color: #ffffff;
-font-family: 'Cybrpnuk2', sans-serif;
+font-family:'Flynn', sans-serif;
 }
 
 .p1{
     text-align: center;
-    border: 5px solid rgb(255, 255, 255);
     max-width: 650px;
     margin: 0 auto 20px auto;
     line-height: 1.6;
     color: #ffffff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Nirmala Text', sans-serif;
 }
 
 .p2{text-align: center;
